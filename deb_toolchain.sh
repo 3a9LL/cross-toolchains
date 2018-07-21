@@ -139,10 +139,10 @@ trap 'restore_output' EXIT
 
 TOOLCHAIN_DIR=/usr
 export TARGET_CC="$TARGET-gcc $CFLAGS_FOR_TARGET"
-CFLAGS_FOR_TARGET
+# CFLAGS_FOR_TARGET
 # Global version vars
 export GCCv=7.1.0
-export GLIBCv=2.20
+export GLIBCv=2.3.5
 export BINUTILSv=2.28
 export MPFRv=3.1.5
 export GMPv=6.1.2
@@ -197,8 +197,8 @@ SOURCE_LINKS=(
     https://ftp.gnu.org/gnu/binutils/binutils-$BINUTILSv.tar.gz
     https://ftp.gnu.org/gnu/gcc/gcc-$GCCv/gcc-$GCCv.tar.gz
     https://www.kernel.org/pub/linux/kernel/$KERNEL_GEN/linux-$KERNELv.tar.xz
-    https://ftp.gnu.org/gnu/glibc/glibc-$GLIBCv.tar.xz
-    https://ftp.gnu.org/gnu/glibc/glibc-ports-$GLIBCv.tar.xz
+    https://ftp.gnu.org/gnu/glibc/glibc-$GLIBCv.tar.bz2
+    https://ftp.gnu.org/gnu/glibc/glibc-ports-$GLIBCv.tar.bz2
     https://ftp.gnu.org/gnu/mpfr/mpfr-$MPFRv.tar.xz
     https://ftp.gnu.org/gnu/gmp/gmp-$GMPv.tar.xz
     https://ftp.gnu.org/gnu/mpc/mpc-$MPCv.tar.gz
