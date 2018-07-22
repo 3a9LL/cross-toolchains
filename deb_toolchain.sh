@@ -142,7 +142,7 @@ export TARGET_CC="$TARGET-gcc $CFLAGS_FOR_TARGET"
 # CFLAGS_FOR_TARGET
 # Global version vars
 export GCCv=7.1.0
-export GLIBCv=2.3.5
+export GLIBCv=2.16.0
 export BINUTILSv=2.28
 export MPFRv=3.1.5
 export GMPv=6.1.2
